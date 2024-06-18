@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8e1957b-3e83-45cb-9f15-f8d65fedc953" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/LauncherWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/controller/DashboardFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/controller/LoginFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/controller/MainDashboardFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/controller/PaymentFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/controller/StudentFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/db/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/IMG_5079.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/User.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/mehndi-indian-henna-tattoo-white-pattern-on-black-vector-5662011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/newWHite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/payament.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/profilPhoto.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/welcomePhoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/zuanshiLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/login_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/mainDashboard_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/payment_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/student_form.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem/controller/DashboardFormController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2hwxCAPjNVLWfRKnOrC3NpB0UiH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.LauncherWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rukshan/intelliJ idea projects/Student-Payment-System/src/main/resources/icon&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/icon" />
+      <recent name="$PROJECT_DIR$/src/main/java/lk/ijse/studentpaymentsystem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/icon" />
+      <recent name="$PROJECT_DIR$/src/main/resources/samara" />
+      <recent name="$PROJECT_DIR$/src/main/resources/samarakaran" />
+      <recent name="$PROJECT_DIR$/src/main/resources/studentIcon" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LauncherWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.studentpaymentsystem.LauncherWrapper" />
+      <module name="Student-Payment-System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.studentpaymentsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LauncherWrapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8e1957b-3e83-45cb-9f15-f8d65fedc953" name="Changes" comment="" />
+      <created>1718518813470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718518813470</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

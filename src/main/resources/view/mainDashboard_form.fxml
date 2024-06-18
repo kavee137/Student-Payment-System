@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="677.0" prefWidth="1047.0" style="-fx-background-color: #f0fff1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studentpaymentsystem.controller.MainDashboardFormController">
+
+</AnchorPane>

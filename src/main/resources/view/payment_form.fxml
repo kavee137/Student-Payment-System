@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="677.0" prefWidth="1047.0" style="-fx-background-color: #f0fff1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studentpaymentsystem.controller.PaymentFormController">
+   <children>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="154.0" layoutX="103.0" layoutY="45.0" strokeType="INSIDE" width="861.0" />
+      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="539.0" layoutY="149.0" onAction="#btnUpdateOnAction" prefHeight="10.0" prefWidth="50.0" style="-fx-background-color: #10451d; -fx-background-radius: 10;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="468.0" layoutY="149.0" onAction="#btnClearOnAction" prefHeight="10.0" prefWidth="50.0" style="-fx-background-color: #10451d; -fx-background-radius: 10;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TextField fx:id="txtName" layoutX="711.0" layoutY="77.0" onKeyReleased="#nameKeyRelaseAction" prefHeight="33.0" prefWidth="230.0" />
+      <Label layoutX="711.0" layoutY="59.0" text="Student Name" textFill="#393939">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="141.0" layoutY="59.0" text="Student NIC" textFill="#393939">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNic" layoutX="142.0" layoutY="77.0" onKeyReleased="#nicKeyRelaseAction" prefHeight="33.0" prefWidth="230.0" />
+      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="314.0" layoutY="83.0" onAction="#btnSearchOnAction" prefHeight="21.0" prefWidth="52.0" style="-fx-background-color: gray;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="143.0" layoutY="125.0" text="Arrived" textFill="#393939">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" contentDisplay="RIGHT" layoutX="316.0" layoutY="146.0" onAction="#btnActiveOnAction" prefHeight="21.0" prefWidth="52.0" style="-fx-background-color: green;" text="Yes" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXComboBox fx:id="cmbArrived" layoutX="148.0" layoutY="146.0" prefHeight="26.0" prefWidth="162.0" />
+      <TableView fx:id="tblPayment" layoutX="106.0" layoutY="235.0" prefHeight="409.0" prefWidth="855.0">
+         <columns>
+            <TableColumn fx:id="colNic" prefWidth="255.21121978759766" text="NIC" />
+            <TableColumn fx:id="colPaymentId" prefWidth="67.75180053710938" text="Payment ID" />
+            <TableColumn fx:id="colName" prefWidth="325.79339599609375" text="Name" />
+            <TableColumn fx:id="colAmount" prefWidth="110.70654296875" text="Amount" />
+            <TableColumn fx:id="colArrived" prefWidth="94.21533203125" text="Arrived" />
+         </columns>
+      </TableView>
+      <TextField fx:id="txtAmount" layoutX="422.0" layoutY="77.0" onKeyReleased="#nameKeyRelaseAction" prefHeight="33.0" prefWidth="230.0" />
+      <Label layoutX="422.0" layoutY="59.0" text="Amount" textFill="#393939">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

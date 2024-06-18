@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootNode" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studentpaymentsystem.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="862.0" fitWidth="1429.0" layoutX="-10.0" layoutY="-138.0" opacity="0.58" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/IMG_5079.JPG" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#ffffffc1" height="449.0" layoutX="849.0" layoutY="60.0" stroke="#ffffffab" strokeType="INSIDE" strokeWidth="3.0" width="334.0" />
+      <Text fill="#1e1e1e" layoutX="926.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+         <font>
+            <Font name="Zapfino" size="54.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtUserId" layoutX="893.0" layoutY="270.0" onAction="#txtUsernameOnAction" onKeyReleased="#txtUserNameOnKeyReleased" prefHeight="35.0" prefWidth="249.0" promptText="user name" style="-fx-background-radius: 17;" />
+      <PasswordField fx:id="txtPassword" layoutX="893.0" layoutY="331.0" onAction="#txtPasswordOnAction" prefHeight="35.0" prefWidth="249.0" promptText="password" style="-fx-background-radius: 17;" />
+      <Label layoutX="896.0" layoutY="251.0" text="UserName" textFill="#3c3c3c" />
+      <Label layoutX="898.0" layoutY="312.0" text="Password" textFill="#3c3c3c" />
+      <Line endX="106.4000244140625" layoutX="1017.0" layoutY="179.0" startX="-100.0">
+         <effect>
+            <MotionBlur />
+         </effect>
+      </Line>
+      <Line endX="134.5611572265625" layoutX="1002.0" layoutY="385.0" startX="-100.0" stroke="#00000026" />
+      <JFXButton layoutX="953.0" layoutY="430.0" onAction="#btnLoginOnAction" prefHeight="33.0" prefWidth="124.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="743.0" layoutY="702.0" prefHeight="17.0" prefWidth="207.0" text="Software developed by Rukshan" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane style="-fx-background-color: #f0fff1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studentpaymentsystem.controller.DashboardFormController">
+   <children>
+      <JFXButton fx:id="btnLogout" layoutX="76.0" layoutY="622.0" onAction="#btnLogoutOnAction" prefHeight="26.0" prefWidth="61.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Logout" textFill="#fc3333db">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="94.0" layoutY="682.0" text="V 1.0.0" textFill="WHITE">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+      <Label layoutX="1060.0" layoutY="702.0" text="Developed By Rukshan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#10451d" height="48.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1241.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#10451d" height="680.0" layoutX="-63.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="256.0" />
+      <VBox fx:id="vBoxButton" layoutY="194.0" prefHeight="153.0" prefWidth="192.0">
+         <children>
+            <JFXButton fx:id="btnDashboard" layoutX="10.0" layoutY="10.0" onAction="#btnDashboardOnAction" prefHeight="40.0" prefWidth="192.0" text="Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Al Bayan Bold" size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnStudent" onAction="#btnStudentOnAction" prefHeight="40.0" prefWidth="193.0" text="Students" textFill="WHITE">
+               <font>
+                  <Font name="Al Bayan Bold" size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnPayment" onAction="#btnPaymentOnAction" prefHeight="40.0" prefWidth="193.0" text="Payments" textFill="WHITE">
+               <font>
+                  <Font name="Al Bayan Bold" size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnUser" onAction="#btnUserOnAction" prefHeight="40.0" prefWidth="193.0" text="Users" textFill="WHITE">
+               <font>
+                  <Font name="Al Bayan Bold" size="16.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="19.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/newWHite.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" contrast="1.0" hue="0.78" saturation="1.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="19.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/payament.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" contrast="1.0" hue="0.78" saturation="1.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="30.0" layoutX="16.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/User.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="183.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/zuanshiLogo.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.02" contrast="0.01" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="237.0" fitWidth="289.0" layoutX="-89.0" layoutY="488.0" opacity="0.19" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/mehndi-indian-henna-tattoo-white-pattern-on-black-vector-5662011.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="56.0" layoutY="592.0" onAction="#btnLogoutOnAction" prefHeight="26.0" prefWidth="61.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Logout" textFill="#000000db">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="date" layoutX="1064.0" layoutY="10.0" prefHeight="28.0" prefWidth="81.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" layoutX="1157.0" layoutY="10.0" prefHeight="28.0" prefWidth="78.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="10.0" prefHeight="14.0" prefWidth="35.0" text="Hello! " textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="31.0" fitWidth="34.0" layoutX="251.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/profilPhoto.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="519.0" fitWidth="502.0" layoutX="733.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/welcomePhoto.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="267.0" layoutY="250.0" text="Welcome">
+         <font>
+            <Font name="System Bold" size="63.0" />
+         </font>
+      </Label>
+      <Label layoutX="267.0" layoutY="313.0" text="Back!">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="267.0" layoutY="423.0" text="ZUANSHI get together management software!">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="15.0" prefHeight="15.0" prefWidth="61.0" text="Rukshan" textFill="WHITE">
+         <font>
+            <Font name="Al Bayan Bold" size="13.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="rootNode" layoutX="193.0" layoutY="48.0" prefHeight="677.0" prefWidth="1047.0" />
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="19.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/dashboard.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" contrast="1.0" hue="0.78" saturation="1.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
