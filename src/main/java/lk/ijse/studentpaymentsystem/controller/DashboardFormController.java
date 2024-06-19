@@ -114,9 +114,17 @@ public class DashboardFormController {
 
     }
 
-    public void btnUserOnAction(ActionEvent actionEvent) {
+    public void btnUserOnAction(ActionEvent actionEvent) throws IOException {
         resetButtonStyles();
         btnUser.setStyle("-fx-background-color: #020202;");
+
+        FXMLLoader customerLoader = new FXMLLoader(getClass().getResource("/view/user_form.fxml"));
+        Parent customerRoot = customerLoader.load();
+        rootNode.getChildren().clear();
+        rootNode.getChildren().add(customerRoot);
+
+        Stage stage = (Stage) rootNode.getScene().getWindow();
+        stage.setTitle("User Manage");
     }
 
     public void btnDashboardOnAction(ActionEvent actionEvent) throws IOException {

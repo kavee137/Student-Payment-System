@@ -41,12 +41,18 @@ public class PaymentFormController {
     private TextField txtNic;
 
     @FXML
-    void btnActiveOnAction(ActionEvent event) {
+    private TextField txtStudentAddName;
+
+    @FXML
+    private TextField txtStudentAddNic;
+
+    @FXML
+    void btnClearOnAction(ActionEvent event) {
 
     }
 
     @FXML
-    void btnClearOnAction(ActionEvent event) {
+    void btnCopyOnAction(ActionEvent event) {
 
     }
 
@@ -56,7 +62,22 @@ public class PaymentFormController {
     }
 
     @FXML
+    void btnStudentClearOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnStudentSaveOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
     void btnUpdateOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnYesOnAction(ActionEvent event) {
 
     }
 
